@@ -13,7 +13,7 @@ function InputForm({
       <input ref={inputRef} placeholder="Введи текст" />
       <button onClick={onFocus}>Фокус</button>
     </div>
-  );
+  )
 }
 
 function App() {
